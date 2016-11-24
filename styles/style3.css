@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+nav{
+	background: #000000;
+	height: 100px;
+	width: 100% !important;
+}
+header {
+	background: #b30000 repeat-x center bottom;
+	height: 70px;
+	text-align: center;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+}
+header a {
+	text-transform: uppercase;
+	line-height: 70px;
+	color: white;
+	position: relative;
+	width: 100%;
+	font-size: 32px;
+	text-decoration: none;
+	margin-right: 50px;
+	font-family: "BankGothic Md BT";
+	transition-property: color;
+	transition-timing-function: ease-out;
+	transition-duration: 0.7s; 
+}
+header a:hover{
+	color: #2c3e50 !important;
+}
+
+header a i{
+	color: #2c3e50;
+	font-size: 20px !important;
+}
+nav a{
+	color: white;
+	font-family: "BankGothic Md BT";
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 60px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+nav img{
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 100px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.mainSection{
+	background: #ecf0f1;
+	height: 600px;
+	padding: 30px;
+}
+
+.active{
+	color: #3599db;
+	border-top: 3px solid #8e44ad;
+}
+
+.name, .email{
+	width: 200px;
+	height: 30px;
+}
+.name, .email, .textarea{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.textarea{
+	width: 800px;
+	height: 300px;
+}
+
+h2{
+	margin-bottom: 20px;
+}
+
+.sendButton{
+	cursor: pointer;
+	border: none;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #34cf76;
+	padding: 5px;
+	display: block;
+	width: 150px;
+	height: 80px;
+	text-align: center;
+	line-height: 50px;
+	border-bottom: 10px solid #28b363;
+	font-weight: bold;
+	font-family: "BankGothic Md BT";
+	transition-property: border-bottom;
+	transition-timing-function: ease;
+	transition-duration: 0.5s;
+}
+
+.sendButton:active{
+	border-bottom: none;
+}
